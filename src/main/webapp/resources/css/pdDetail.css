@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+/*상품 상세페이지 이미지 왼쪽 마진*/
+p {
+	margin:20px auto;
+	width:1000px;
+	display: block;
+	 
+
+}
+
+/*상품상세페이지 table th 효과*/
+.pd01{
+	font-size: 20px;
+	float:left;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+	
+}
+/*상품상세 페이지 table td 효과*/
+.pd02{
+	float: left;
+	padding: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 30px;
+	
+}
+/*싱품상세 페이지 총 상품 금액 효과*/
+.pd03{
+	float: right;
+	font-size: 30px;
+	margin-right: 100px;
+	margin-top: 100px;
+	text-align: center;
+	
+	
+}
+/*상품상세 페이지 버튼 효과*/
+.barket-btn{
+	background-color: #5F0080;
+	font-size: 40px;
+	margin-left: 300px;
+	color:white;
+	border-radius: 10px;
+	width: 300px;
+	float: right;
+	border:solid 3px;
+	text-align: center;
+}
+
+/*상품 설명 문의 후기 탭 속성*/
+/* 탭 전체 스타일 */
+
+
+/* 탭 스타일 */
+/* .tab_item {
+  width: 25%;
+  height: 60px;
+  border-bottom: 3px solid #333333;
+  background-color: #f8f8f8;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
+  display: block;
+  float: left;
+
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+ */
+
+/* 탭 컨텐츠 스타일 */
+/* .tab_content {
+  display: none;
+  padding: 40px 40px 0;
+  clear: both;
+  overflow: hidden;
+} */
+
+
+
+/*스크롤 탭 시작*/
+#main div {
+	margin-bottom:200px;
+ 	margin:10px auto;
+	position: relative;
+	height: 600px;
+	width: 1000px;
+}
+.target>div {
+	 
+	height: 600px;
+}
+/*탭 전체 스타일*/
+.tabs {
+  position: absolute;
+  width: 950px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width:100%;
+  
+  }
+  
+ .tabs.stiky{
+ position: fixed;
+ top:0px;
+ z-index: 3;
+ }
+
+#main {
+	margin-top: 100px;
+	
+}
+.tabs-back{
+	width: 1000px;
+	margin: 0 auto;
+	
+	
+}
+.tabs-cate{
+	height: 45px;
+	padding: 5px 1px;
+	width: 100%;
+}
+ #nav nav a {
+  position:relative;
+  height: 50px;
+  background-color: #f8f8f8;
+  margin-left:85px;
+  font-size: 25px;
+  text-align: center;
+  color: #333333;
+  display: block;
+  float: left;
+  font-weight: bold;
+  text-decoration: none;
+ 
+ }
+ 
+/* ----------pdD 나경추가 */
+.reviewBox {
+   float: left;
+   width: 1000px;
+   height: 2000px;
+   border: 3px solid #2e641b;
+   border-radius: 20px;
+   margin-bottom: 200px;
+   margin: 10px auto;
+   position: relative;
+}
+
+.reviewImg {
+   width: 150px;
+   height: 150px;
+}
+
+
+/* boardQTable은 아코디언 스타일의 게시판테이블! */
+.boardQTable {
+   border-style: none;
+   border-collapse: collapse;
+   text-align: left;
+   line-height: 1.5;
+   border: 1px solid #ccc;
+   margin: 20px auto;
+   font-size: 13px;
+   border-right: 1px solid #ffffff;
+   border-left: 1px solid #ffffff;
+}
+
+.boardQTable td {
+   padding: 10px;
+   vertical-align: top;
+   border-bottom: 1px solid #ccc;
+}
+
+.boardQTable th {
+   vertical-align: top;
+   border-bottom: 1px solid #ffffff;
+}
+
+.boardQTable thead {
+   border-right: 1px solid #fef8a4;
+   border-left: 1px solid #fef8a4;
+   background: #fef8a4;
+}
+
+.boardQTable thead th {
+   padding: 10px;
+   font-weight: bold;
+   vertical-align: top;
+   font-size: 15px;
+}
+
+.f_answer1 {
+   background: #eee;
+   display: none;
+}
+
+.show {
+   background: #eee;
+}
+
+.pdDTImg {
+   width: 1000px;
+}
+
+.pdDTaImg {
+   width: 1000px;
+}
+ 
+
+
+#nav nav a:hover, #nav a.item {
+  background: black;
+  color: white;
+}

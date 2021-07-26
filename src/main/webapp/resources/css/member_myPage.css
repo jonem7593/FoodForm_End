@@ -1,0 +1,99 @@
+.mypage_wrapper {
+	display: flex;
+	width: 1100px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+.mypage_wrapper .left_menu {
+	background-color: #b1ed81;
+	width: 250px;
+	height: 100%;
+	text-align: center;
+}
+
+.mypage_wrapper .left_menu .order_history {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+}
+
+.mypage_wrapper .left_menu .order_history a {
+	text-decoration: none;
+}
+
+.mypage_wrapper .left_menu .order_history:hover {
+	text-decoration: none;
+	background-color: #78df24;
+}
+
+.mypage_wrapper .left_menu .mypage {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	font-size: 34px;
+	justify-content: center;
+	align-items: center;
+}
+
+.mypage_wrapper .all_div_meeting {
+	display: flex;
+	margin-left: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+
+.all_div_meeting .member_Page {
+	background-color: rgb(180, 180, 180);
+	display: flex;
+	justify-content: space-evenly;
+	flex-grow: 1;
+	height: 200px;
+	width: 100%;
+}
+
+.all_div_meeting .bottom_content_box {
+	margin-top: 10px;
+	width: 100%;
+	height: 480px;
+}
+
+.all_div_meeting .bottom_content_box iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.all_div_meeting .member_Page .member_mypage_box {
+	height: 250px;
+}
+
+.all_div_meeting .member_Page .member_div_box {
+	height: 250px;
+	margin-top: 40px;
+}
+
+.all_div_meeting .member_Page .member_div_box a {
+	text-decoration: none;
+}
+
+.all_div_meeting .member_name {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.all_div_meeting .contour_box {
+	background-color: #808080;
+	width: 2px;
+	margin: 10px 0 10px 0;
+}
+
+.all_div_meeting .circle {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	margin-top: 20px;
+}

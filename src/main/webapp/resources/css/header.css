@@ -1,0 +1,205 @@
+/* 상단바 로고 */
+.logoimg {
+	width: 200px;
+	height: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.toplogo {
+	width: 100%;
+	text-align: center;
+}
+/* ========================================================== */
+
+/* 상단바(검색,로그인,로그아웃...) */
+.top-right ul {
+	display: inline-block;
+}
+
+.toptop {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-bar {
+	background-color: white;
+	color: #004000;
+	min-height: 58px;
+	line-height: 58px;
+	height: 70px;
+	margin-top: 5px;
+}
+
+.top-left {
+	padding: 0px;
+	margin: 0px;
+}
+
+.ask img {
+	width: 15px;
+	height: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+.ask button {
+	width: 15px;
+	height: 15px;
+	padding: 0;
+	margin: 0px;
+}
+
+.sa_ch input {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.top-right ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.top-right ul li {
+	float: left;
+	padding-left: 20px;
+}
+
+.top-right ul li a {
+	text-decoration: none;
+}
+
+.top-right ul li a:link {
+	color: black;
+}
+
+.top-right ul li a:visited {
+	color: black;
+}
+
+.top-right ul li a:hover {
+	color: black;
+}
+
+/* ---------카테고리바----------------------- */
+.cate-back {
+	display: flex;
+	justify-content: center;
+	background-color: #fef8a4;
+	margin-top: 10px;
+	height: 55px;
+	width: 1900px;
+}
+
+.category { /* 전체 메뉴 스타일 */
+	display: flex;
+	justify-content: center;
+	list-style: none; /* 블릿 없애기 */
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+
+.category li { /* 전체 메뉴의 리스트에 대한 스타일 */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative; /* 순서대로 표시한다 */
+	height: 100%;
+	width: 250px;
+}
+
+.category li a { /* 메인 메뉴 링크의 스타일 */
+	display: block; /* 메뉴칸을 블록레벨로 만든다 */
+	font-family: "돋움";
+	font-size: 20px; /* 글자 크기 */
+	color: #000000;
+	text-decoration: none; /* 글자의 밑줄 없애기 */
+}
+
+.cate-back .category .cate ul li a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.cate-back .category .cate ul li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 250px;
+}
+
+.cate-back .category li:hover {
+	display: flex;
+	justify-content: center;
+	background: #d0de1f; /* 배역색 지정 */
+	color: #00f00c;
+}
+
+.category cate a:hover { /* 메인메뉴 링크에 마우스 포인터를 올렸을 때 스타일 */
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	background: #fef8a4;
+}
+
+.category li ul li a:hover {
+	background: #d0de1f; /* 배역색 지정 */
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.category li ul { /* 서브매뉴 스타일 */
+	padding: 0;
+	position: absolute; /* 고정위치에 표시 */
+	top: 55px;
+	height: 45px; /* 서브메뉴의 높이 */
+	background: #fef8a4;
+	text-align: center; /* 글자 가운데 정렬 */
+	display: none;
+	width: 250px;
+	align-items: center;
+}
+
+.category li:hover ul { /* 메인메뉴에 마우스 포인터를 가져갔을 때 서브메뉴 스타일 */
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	z-index: 2;
+	background: #fef8a4;
+}
+
+.category li:hover ul li { /* 메인메뉴에 마우스 포인터를 가져갔을 때 서브메뉴 스타일 */
+	background: #fef8a4;
+}
+
+.category li ul li:hover { /* 마우스 포인터를 올려놨을 때 서브메뉴 스타일 */
+	height: 35px; /* 서브메뉴의 높이 */
+	overflow: visible; /* 영역을 넘어가는 내용이 있다면 표시 */
+	padding: 0;
+	display: block;
+	background: #fef8a4;
+}
+
+/*
+ ---- Responsive css (화면을 줄이면 상단바의 검색,로그인 부분이 사라지는 기능 .이 기능은 무조건 맨 아래에 있어야함)------
+ */
+@media only screen and (max-width: 910px) {
+	.bef, .suc {
+		display: none;
+	}
+	.ask, .sa_ch {
+		display: none;
+	}
+	.img1 {
+		width: 100%;
+	}
+}

@@ -1,0 +1,73 @@
+/* 슬라이더 */
+.content-home {
+	width: 1895px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content-home1 {
+	margin: 0px auto;
+	width: 1280px;
+	padding: 20px;
+}
+
+.sliders_auto {
+	z-index: 1;
+}
+
+/* 상품 4개의 공간 */
+article .block {
+	padding: 10px;
+	min-height: 500px;
+	width: 1300px;
+	margin: auto;
+}
+
+/* 상품 1개의 공간 */
+.foodblock {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+
+/* --------------푸터----------------------- */
+.footer-bar {
+	background: #fef8a4;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.footer-logo {
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 45%;
+	margin-top: 20px;
+}
+
+.topBtn {
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 20%;
+}
+
+.footer-toplogo {
+	width: 50px;
+	height: 50px;
+}
+
+.footer-txt {
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 48%;
+	margin-bottom: 20px;
+}
